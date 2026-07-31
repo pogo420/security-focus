@@ -71,34 +71,34 @@
 
 ### DNS Basics
 
-- [ ] Why DNS Exists
-- [ ] DNS Resolution
+- [x] Why DNS Exists
+- [x] DNS Resolution
 - [ ] `dig`
 - [ ] `host`
 - [ ] `nslookup`
 
 ### End-to-End Packet Journey
 
-- [ ] Trace `curl https://example.com`
-- [ ] DNS
-- [ ] Route Lookup
-- [ ] ARP
-- [ ] Ethernet Frame
-- [ ] Packet Transmission
-- [ ] Switch
-- [ ] Router
-- [ ] Destination Host
+- [x] Trace `curl https://example.com`
+- [x] DNS
+- [x] Route Lookup
+- [x] ARP
+- [x] Ethernet Frame
+- [x] Packet Transmission
+- [x] Switch
+- [x] Router
+- [x] Destination Host
 
 ---
 
 ## Week 2 - TCP
 
-- [ ] TCP Header
-- [ ] Ports
-- [ ] Three-Way Handshake
-- [ ] Connection States
-- [ ] Retransmissions
-- [ ] Flow Control
+- [x] TCP Header
+- [x] Ports
+- [x] Three-Way Handshake
+- [x] Connection States
+- [x] Retransmissions
+- [x] Flow Control
 - [ ] Congestion Control
 - [ ] `ss`
 - [ ] `netstat`

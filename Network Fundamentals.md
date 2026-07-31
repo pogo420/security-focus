@@ -191,7 +191,7 @@ Send IP packet
           │
           ▼
   4. Lowest metric wins
-```
+  ```
   * Example table:
   ```
   default via 192.168.18.1 dev eth0 proto static
@@ -210,3 +210,27 @@ Send IP packet
 ## DNS:
 * Domain naming system.
 * URL -> IP
+
+## ip neigh
+
+* Purpose:
+  * Shows the kernel's Neighbor Cache (ARP Cache for IPv4).
+
+* Contains:
+  - Neighbor IP
+  - Interface
+  - Neighbor MAC
+  - Entry State
+
+* Flow:
+  ```
+    Need MAC
+        │
+    ARP Request
+        │
+    ARP Reply
+        │
+    Neighbor Cache Updated
+        │
+    ip neigh
+  ```

@@ -1,25 +1,26 @@
 # DevSecOps & Application Security — Master Roadmap
 
 
-## Phase 3 — Application Security ⭐
+## Phase 3 — Application Security
 
-- [ ] OWASP Top 10
-- [ ] Authentication vs Authorization
-- [ ] Sessions / Cookies
-- [ ] JWT
-- [ ] RBAC / Access Control
-- [ ] SQL Injection
-- [ ] XSS
-- [ ] CSRF
-- [ ] SSRF
-- [ ] IDOR
-- [ ] Command Injection
-- [ ] Path Traversal
-- [ ] File Upload
-- [ ] API Security
-- [ ] CORS / Same-Origin Policy
-- [ ] Rate Limiting
-- [ ] PortSwigger Labs
+### Authentication
+
+- [x] Authentication vs Authorization
+- [x] OWASP Top 10
+- [x] Broken Access Control
+- [x] SQL Injection
+- [x] XSS
+- [x] CSRF
+- [x] SSRF
+- [x] Command Injection
+- [x] Path Traversal
+- [x] File Upload
+- [x] Security Misconfiguration
+- [x] API Security
+- [x] CORS / Same-Origin Policy
+- [x] Rate Limiting
+- [x] PortSwigger Labs
+
 
 ---
 

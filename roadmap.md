@@ -1,146 +1,177 @@
-# DevSecOps & Application Security — Master Roadmap
+# Security Upskill Roadmap
 
+## 1. Application Security 🟢
 
-## Phase 3 — Application Security
+* [x] OWASP Top 10
+* [x] Injection
+* [x] Broken Access Control
+* [x] Authentication & Authorization
+* [x] Session Management
+* [x] CSRF
+* [x] CORS
+* [x] SSRF
+* [x] Security Misconfiguration
+* [x] Cryptographic Failures
+* [x] Vulnerable Components
+* [x] Logging & Monitoring
+* [x] Secure API Basics
+* [x] Threat Modeling Basics
+* [x] Security Testing Mindset
 
-### Authentication
+## 2. Container Security 🔵
 
-- [x] Authentication vs Authorization
-- [x] OWASP Top 10
-- [x] Broken Access Control
-- [x] SQL Injection
-- [x] XSS
-- [x] CSRF
-- [x] SSRF
-- [x] Command Injection
-- [x] Path Traversal
-- [x] File Upload
-- [x] Security Misconfiguration
-- [x] API Security
-- [x] CORS / Same-Origin Policy
-- [x] Rate Limiting
-- [x] PortSwigger Labs
+### Container Fundamentals
 
+* [ ] Containers vs VMs
+* [ ] Docker Architecture
+* [ ] Images, Layers & Registries
+* [ ] Containers vs Images
+* [ ] Dockerfile Basics
 
----
+### Container Security
 
-## Phase 4 — Secure Coding
+* [ ] Secure Dockerfiles
+* [ ] Non-root Containers
+* [ ] Linux Capabilities
+* [ ] Privileged Containers
+* [ ] Filesystem Security
+* [ ] Secrets
+* [ ] Environment Variables
+* [ ] Resource Limits
+* [ ] Container Isolation
 
-- [ ] Input Validation
-- [ ] Output Encoding
-- [ ] Password Hashing
-- [ ] Secrets Management
-- [ ] Dependency Security
-- [ ] Secure API Design
-- [ ] Secure Error Handling
-- [ ] Logging
-- [ ] Threat Modeling
+### Image Security
 
----
+* [ ] Vulnerability Scanning
+* [ ] Base Image Selection
+* [ ] Minimal/Distroless Images
+* [ ] Image Signing
+* [ ] Image Provenance
+* [ ] SBOM
 
-## Phase 5 — Docker
+### Runtime Security
 
-- [ ] Container vs VM
-- [ ] Images / Layers
-- [ ] Dockerfile
-- [ ] Container lifecycle
-- [ ] Namespaces
-- [ ] Capabilities
-- [ ] Container networking
-- [ ] Volumes / mounts
+* [ ] Container Escape — Concept
+* [ ] Runtime Monitoring
+* [ ] Suspicious Processes
+* [ ] Network Exposure
+* [ ] Container Logging
 
----
+## 3. Kubernetes Security 🔵
 
-## Phase 6 — Container Security ⭐
+### Kubernetes Fundamentals
 
-- [ ] Image hardening
-- [ ] Minimal images
-- [ ] Non-root
-- [ ] Linux capabilities
-- [ ] Seccomp
-- [ ] AppArmor
-- [ ] Read-only filesystem
-- [ ] Resource limits
-- [ ] Secrets
-- [ ] Image scanning
-- [ ] Trivy
-- [ ] Container escape concepts
+* [ ] Kubernetes Architecture
+* [ ] Control Plane
+* [ ] Nodes
+* [ ] Pods
+* [ ] Deployments
+* [ ] Services
+* [ ] ConfigMaps
+* [ ] Secrets
 
----
+### Identity & Access
 
-## Phase 7 — Kubernetes
+* [ ] Service Accounts
+* [ ] RBAC
+* [ ] Roles
+* [ ] RoleBindings
+* [ ] ClusterRoles
+* [ ] Least Privilege
 
-### Fundamentals
+### Workload Security
 
-- [ ] Kubernetes architecture
-- [ ] API Server
-- [ ] etcd
-- [ ] kubelet
-- [ ] Pods
-- [ ] Deployments
-- [ ] Services
-- [ ] Ingress
-- [ ] ConfigMap / Secret
+* [ ] Security Context
+* [ ] Run as Non-root
+* [ ] Linux Capabilities
+* [ ] Privileged Pods
+* [ ] Read-only Filesystem
+* [ ] Pod Security Standards
 
-### Networking
+### Network Security
 
-- [ ] Pod networking
-- [ ] CNI
-- [ ] Service networking
-- [ ] CoreDNS
-- [ ] NetworkPolicy
+* [ ] Kubernetes Networking Basics
+* [ ] NetworkPolicies
+* [ ] Namespace Isolation
+* [ ] Ingress
+* [ ] Service Exposure
 
----
+### Kubernetes Attack Surface
 
-## Phase 8 — Kubernetes Security ⭐
+* [ ] Compromised Pod
+* [ ] Service Account Abuse
+* [ ] Excessive RBAC
+* [ ] Exposed API Server
+* [ ] Secret Exposure
+* [ ] Container Escape
+* [ ] Lateral Movement
 
-- [ ] RBAC
-- [ ] Service Accounts
-- [ ] Security Context
-- [ ] Pod Security Standards
-- [ ] Capabilities
-- [ ] Seccomp
-- [ ] Secrets
-- [ ] NetworkPolicy
-- [ ] Admission Control
-- [ ] Resource Limits
-- [ ] Image Security
-- [ ] Kubernetes API Security
-- [ ] kube-bench
-- [ ] Kubescape
-- [ ] Falco
+### Kubernetes Security Controls
 
----
+* [ ] Admission Control
+* [ ] Image Policies
+* [ ] Secrets Management
+* [ ] Audit Logging
+* [ ] Runtime Security
+* [ ] Policy Enforcement
 
-## Phase 9 — DevSecOps ⭐
+## 4. DevSecOps 🔵
 
-- [ ] SAST
-- [ ] SCA / dependency scanning
-- [ ] Semgrep
-- [ ] SBOM
-- [ ] Syft
-- [ ] Container scanning
-- [ ] Trivy
-- [ ] Image signing
-- [ ] Cosign
-- [ ] CI/CD security
-- [ ] GitHub Actions
-- [ ] Security gates
-- [ ] Secrets in CI/CD
-- [ ] Supply-chain attacks
+### CI/CD Fundamentals
 
----
+* [ ] CI vs CD
+* [ ] Pipeline Architecture
+* [ ] Build → Test → Package → Deploy
+* [ ] Artifacts
+* [ ] Runners/Agents
 
-## Phase 10 — Runtime / Production Security
+### Security in CI/CD
 
-- [ ] Application logs
-- [ ] Kubernetes audit logs
-- [ ] Monitoring / alerting
-- [ ] Runtime detection
-- [ ] Falco
-- [ ] Incident investigation
-- [ ] Container troubleshooting
-- [ ] Kubernetes troubleshooting
-- [ ] Production hardening
+* [ ] SAST
+* [ ] SCA
+* [ ] Secret Scanning
+* [ ] DAST
+* [ ] Container Scanning
+* [ ] IaC Scanning
 
----
+### Supply Chain Security
+
+* [ ] Dependencies
+* [ ] SBOM
+* [ ] Artifact Integrity
+* [ ] Dependency Confusion
+* [ ] Typosquatting
+* [ ] Software Signing
+* [ ] Provenance
+* [ ] Build Security
+
+### Pipeline Security
+
+* [ ] Secrets in Pipelines
+* [ ] Runner Security
+* [ ] Branch Protection
+* [ ] Pull Request Security
+* [ ] Least Privilege
+* [ ] Pipeline Permissions
+* [ ] Security Gates
+
+### Deployment Security
+
+* [ ] Secure Promotion
+* [ ] Image Verification
+* [ ] Environment Separation
+* [ ] Production Access
+* [ ] Continuous Monitoring
+
+## 5. Final Integration 🔵
+
+* [ ] Developer → Application
+* [ ] Application → Dependencies
+* [ ] Dependencies → Container
+* [ ] Container → CI/CD
+* [ ] CI/CD → Registry
+* [ ] Registry → Kubernetes
+* [ ] Kubernetes → Cloud
+* [ ] Cloud → Runtime
+* [ ] End-to-end Attack Paths
+* [ ] End-to-end Security Controls

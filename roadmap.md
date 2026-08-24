@@ -22,40 +22,39 @@
 
 ### Container Fundamentals
 
-* [ ] Containers vs VMs
-* [ ] Docker Architecture
-* [ ] Images, Layers & Registries
-* [ ] Containers vs Images
-* [ ] Dockerfile Basics
+* [x] Containers vs VMs
+* [x] Docker Architecture
+* [x] Images, Layers & Registries
+* [x] Containers vs Images
+* [x] Dockerfile Basics
 
 ### Container Security
 
-* [ ] Secure Dockerfiles
-* [ ] Non-root Containers
-* [ ] Linux Capabilities
-* [ ] Privileged Containers
-* [ ] Filesystem Security
-* [ ] Secrets
-* [ ] Environment Variables
-* [ ] Resource Limits
-* [ ] Container Isolation
+* [x] Secure Dockerfiles
+* [x] Non-root Containers
+* [x] Linux Capabilities
+* [x] Privileged Containers
+* [x] Filesystem Security
+* [x] Secrets
+* [x] Resource Limits
+* [x] Container Isolation
 
 ### Image Security
 
-* [ ] Vulnerability Scanning
-* [ ] Base Image Selection
-* [ ] Minimal/Distroless Images
-* [ ] Image Signing
-* [ ] Image Provenance
-* [ ] SBOM
+* [x] Vulnerability Scanning
+* [x] Base Image Selection
+* [x] Minimal/Distroless Images
+* [x] Image Signing
+* [x] Image Provenance
+* [x] SBOM
 
 ### Runtime Security
 
-* [ ] Container Escape — Concept
-* [ ] Runtime Monitoring
-* [ ] Suspicious Processes
-* [ ] Network Exposure
-* [ ] Container Logging
+* [x] Container Escape — Concept
+* [x] Runtime Monitoring
+* [x] Suspicious Processes
+* [x] Network Exposure
+* [x] Container Logging
 
 ## 3. Kubernetes Security 🔵
 
